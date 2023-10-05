@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T14:12:07.242Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="fY8-AB4dKhhg4BPvtVJA" version="21.8.2" type="github">
+  <diagram name="Page-1" id="CIJgFa8LVo69eIfsF33h">
+    <mxGraphModel dx="574" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="irjHlULohRlp5voYCOe0-1" value="进程1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="40" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-2" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-6" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-13" value="内核1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-14" value="VF1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-15" value="DEVICE1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-47" value="VFn" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-84" value="进程n" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-85" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-86" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-87" value="进程1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="120" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-88" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-89" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-90" value="进程n" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="160" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-91" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-92" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-93" value="内核n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-139" value="软件问题的本质就是共享内存资源的互斥管理。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="730" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-140" value="进程1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="200" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-141" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-142" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-143" value="内核1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-144" value="VF1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-145" value="DEVICE1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="670" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-146" value="VFn" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-147" value="进程n" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="240" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-148" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-149" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-150" value="进程1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="280" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-151" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-152" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-153" value="进程n" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="320" y="460" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-154" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-155" value="线程n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="460" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irjHlULohRlp5voYCOe0-156" value="内核n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i9OpRNWf-z8f4jhYP6j9-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="i9OpRNWf-z8f4jhYP6j9-3" value="&lt;div&gt;执行异常可能和CPU/&lt;/div&gt;&lt;div&gt;内存的占用率有关&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i9OpRNWf-z8f4jhYP6j9-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i9OpRNWf-z8f4jhYP6j9-5" value="&lt;div&gt;执行异常可能和该DEVICE占用率有关&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="655" width="135" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
