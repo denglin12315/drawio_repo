@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T07:10:58.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="S2erzNCLjAkm_1PhgEW7" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T07:16:58.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="IR5wPkkdpgene4-LMvKo" version="24.3.1" type="github">
   <diagram name="第 1 页" id="wbL77T6v4ODWWqQwgH3e">
     <mxGraphModel dx="1425" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="HMC4-4hXIC59DEJLiAjA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMC4-4hXIC59DEJLiAjA-8" target="HMC4-4hXIC59DEJLiAjA-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HMC4-4hXIC59DEJLiAjA-8" value="struct irq_desc {&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;struct irq_data；中记录了GIC中断到linux软件中断之间的映射关系&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="HMC4-4hXIC59DEJLiAjA-8" value="struct irq_desc {&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;struct irq_data；中记录了GIC中断到linux软件中断之间的映射关系&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;irqaction;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="275" y="210" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HMC4-4hXIC59DEJLiAjA-10" value="提供上层软件以统一接口操作不同的中断控制器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
