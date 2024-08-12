@@ -129,7 +129,7 @@
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://gfjiangly.github.io/cpu_parallel/memory_barrier.html&quot;&gt;多线程之内存屏障 | jiang (gfjiangly.github.io)&lt;/a&gt;" link="&lt;a href=&quot;https://gfjiangly.github.io/cpu_parallel/memory_barrier.html&quot;&gt;多线程之内存屏障 | jiang (gfjiangly.github.io)&lt;/a&gt;" id="28W_9H_KCB-kn-ZRJphC-36">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="350" y="400" width="270" height="40" as="geometry" />
+            <mxGeometry x="-100" y="350" width="270" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
