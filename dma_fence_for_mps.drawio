@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0UibtLx0bg4T6_MDQ2ON-12" value="metax_fence_process&lt;div&gt;(如果检测到signaled_seq等于load_seq,表明eop执行完了，可以调用dma_fence_signal,其他流程对dma_fence_wait就会被唤醒)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0UibtLx0bg4T6_MDQ2ON-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;metax_fence_process&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(会不断将cas_buffer的值更新到signal_seq中，如果检测到signaled_seq等于load_seq,表明eop执行完了，可以调用dma_fence_signal,其他流程对dma_fence_wait就会被唤醒)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="294" y="340" width="120" height="150" as="geometry" />
         </mxCell>
       </root>
