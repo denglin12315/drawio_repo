@@ -7,7 +7,7 @@
         <mxCell id="kbtzfBk0J4lA9IpavELv-2" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="550" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kbtzfBk0J4lA9IpavELv-3" value="spin_lock&lt;div style=&quot;font-size: 8px;&quot;&gt;(如果进程之间可抢占，&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;那么spin_lock会关掉抢占)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="kbtzfBk0J4lA9IpavELv-3" value="spin_lock&lt;div style=&quot;font-size: 8px;&quot;&gt;(如果进程之间可抢占，&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;那么spin_lock会关掉&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;抢占，spin_lock释放后&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;马上可以进行抢占)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="310" y="450" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kbtzfBk0J4lA9IpavELv-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kbtzfBk0J4lA9IpavELv-3">
