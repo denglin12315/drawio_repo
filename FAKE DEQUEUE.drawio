@@ -33,8 +33,8 @@
             <mxPoint x="336" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Vz8AI4o-O4B5fIbNVAZ-7" value="bind ringbuf ioctl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="151" y="305" width="100" height="30" as="geometry" />
+        <mxCell id="-Vz8AI4o-O4B5fIbNVAZ-7" value="bind ringbuf ioctl&lt;div&gt;(block time)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="151" y="300" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-Vz8AI4o-O4B5fIbNVAZ-9" value="get a valid rb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="146" y="565" width="110" height="20" as="geometry" />
