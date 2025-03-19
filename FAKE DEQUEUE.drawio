@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="VkxJqGb1m3YQYPU-SNnq">
-    <mxGraphModel dx="2835" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,25 +142,25 @@
           <mxGeometry x="-85" y="260" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-1" value="CE&amp;nbsp; (&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;q1 dequeue&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-490" y="690" width="160" height="60" as="geometry" />
+          <mxGeometry x="-360" y="630" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ias5t32sQGS0Vy-nPJ8z-2" target="Ias5t32sQGS0Vy-nPJ8z-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-2" value="RM（&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;no q1 waves&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-180" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-3" value="wgd alloc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-410" y="720" width="70" height="20" as="geometry" />
+          <mxGeometry x="-280" y="660" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-4" value="dequeue" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="720" width="60" height="20" as="geometry" />
+          <mxGeometry x="-350" y="660" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-7" value="1.no wave done" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="690" width="100" height="30" as="geometry" />
+          <mxGeometry x="-170" y="630" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-8" value="2.no halt ack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="720" width="90" height="30" as="geometry" />
+          <mxGeometry x="-170" y="660" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ias5t32sQGS0Vy-nPJ8z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Ias5t32sQGS0Vy-nPJ8z-10" target="-Vz8AI4o-O4B5fIbNVAZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -175,58 +175,133 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-1" value="CE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一个dispatch,100个wgd&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="225" width="120" height="75" as="geometry" />
+          <mxGeometry x="-1100" y="270" width="120" height="75" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-870" y="284" as="sourcePoint" />
-            <mxPoint x="-970" y="284" as="targetPoint" />
+            <mxPoint x="-880" y="329" as="sourcePoint" />
+            <mxPoint x="-980" y="329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-2" target="LRuGuuO0QwPJzeTFLrHj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-2" value="RM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RM将这100个wgd全部发到shader后，回wgd allocate done&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-870" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry x="-880" y="265" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-4" value="wgd allocate done" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="290" width="60" height="30" as="geometry" />
+          <mxGeometry x="-960" y="335" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-5" value="SHADER" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry x="-680" y="265" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-8" value="wgd allocate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="210" width="60" height="30" as="geometry" />
+          <mxGeometry x="-960" y="255" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-9" value="无queue switch情况发包(所有wgd发成功才会回wgd allocate done)：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="190" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1100" y="235" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-10" value="&lt;div&gt;关于queue switch(&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;以wg为边界&lt;/font&gt;):&lt;/div&gt;&lt;div&gt;1.queue switch包含两种情况：（1）dequeue触发的queue sw;&amp;nbsp; &amp;nbsp;（2）正常的queue switch;&lt;/div&gt;（1）关于dequeue触发的queue sw：dequeue必须是后台queue，所以，前台queue dequeue之前都需要switch成后台queue。&lt;div&gt;（2）关于&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;正常的queue switch：优先级控制，分时复用pipe里面的每一个queue。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="120" width="550" as="geometry" />
+          <mxGeometry x="-1100" y="165" width="550" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-12" value="CE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一个dispatch,100个wgd(假设只发了30个到RM，这时候要切换queue，当前queue需要进入halt, 后面再resume回来，继续发wgd)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="392" width="120" height="138" as="geometry" />
+          <mxGeometry x="-1100" y="437" width="120" height="138" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-870" y="466.8" as="sourcePoint" />
-            <mxPoint x="-970" y="466.8" as="targetPoint" />
+            <mxPoint x="-880" y="511.8" as="sourcePoint" />
+            <mxPoint x="-980" y="511.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="LRuGuuO0QwPJzeTFLrHj-15" target="LRuGuuO0QwPJzeTFLrHj-17" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-15" value="RM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RM发完这30个wgd后就会回halt ack&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;如果这30个wgd无法发到shader,就没法回halt ack&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-870" y="387" width="120" height="143" as="geometry" />
+          <mxGeometry x="-880" y="432" width="120" height="143" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-17" value="SHADER" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="387" width="120" height="143" as="geometry" />
+          <mxGeometry x="-680" y="432" width="120" height="143" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-19" value="有queue switch情况发包(部分allocate done，依赖于halt ack信号)：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="353" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1100" y="398" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LRuGuuO0QwPJzeTFLrHj-20" value="halt ack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="440" width="60" height="30" as="geometry" />
+          <mxGeometry x="-960" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-21" value="halt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="604" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-22" value="resume" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="689" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-22" target="LRuGuuO0QwPJzeTFLrHj-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-810" y="604" as="sourcePoint" />
+            <mxPoint x="-760" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-24" value="queue switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="644" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-810" y="604" as="sourcePoint" />
+            <mxPoint x="-1020" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1000" y="658.9" as="sourcePoint" />
+            <mxPoint x="-950" y="658.9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-28" value="halt ack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="644" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LRuGuuO0QwPJzeTFLrHj-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-840" y="659" as="sourcePoint" />
+            <mxPoint x="-830" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-30" value="部分wgd allocate done&lt;div&gt;(假设30个)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="644" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-31" target="LRuGuuO0QwPJzeTFLrHj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-31" value="CE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-32" value="RM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-33" target="LRuGuuO0QwPJzeTFLrHj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-33" value="KSRF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-34" target="LRuGuuO0QwPJzeTFLrHj-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-34" value="WGD0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-35" value="WGD1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRuGuuO0QwPJzeTFLrHj-36" target="LRuGuuO0QwPJzeTFLrHj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-36" value="WGDn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-37" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuGuuO0QwPJzeTFLrHj-43" value="CE发WGD到RM的过程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="765" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
