@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.3">
   <diagram name="第 1 页" id="3flw9bigWSzukT4XUGwq">
-    <mxGraphModel>
+    <mxGraphModel dx="574" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-1" value="HBM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-2" value="L2C/MC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSMxLFT3A-jq-rbkXxce-3" target="uSMxLFT3A-jq-rbkXxce-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="499.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-3" value="metalk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSMxLFT3A-jq-rbkXxce-4" target="uSMxLFT3A-jq-rbkXxce-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="499.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-4" value="pcie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-6" value="其他卡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="484.9971428571429" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-8" value="host&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="484.9971428571429" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="380" y="339.82" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-11" value="DPC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="uSMxLFT3A-jq-rbkXxce-12">
+          <mxGeometry width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-9" value="LMC" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="uSMxLFT3A-jq-rbkXxce-12">
+          <mxGeometry x="10" y="70" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-10" value="VL1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="uSMxLFT3A-jq-rbkXxce-12">
+          <mxGeometry x="10" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSMxLFT3A-jq-rbkXxce-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.534;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uSMxLFT3A-jq-rbkXxce-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.0799999999999" y="509.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
