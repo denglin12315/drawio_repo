@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="r4f-K3ZmJ31WaechfmFV">
-    <mxGraphModel>
+    <mxGraphModel dx="984" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-1" value="kernel dispatch1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-2" value="kernel dispatch2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-3" value="barrier bit&lt;div&gt;(kernel dispatch之间的串行控制&amp;lt;&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;中间没有barrier包的情况下&lt;/font&gt;&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-6" value="release fence bit&lt;div&gt;(刷cache)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-3" target="4_w3iqSzNzo2NCXgmyyh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-6" target="4_w3iqSzNzo2NCXgmyyh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-10" target="4_w3iqSzNzo2NCXgmyyh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-10" value="acquire fence bit&lt;div&gt;(刷cache)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-12" value="barrier包&lt;div&gt;包括barrier and和barrier or&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="500" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="635" as="sourcePoint" />
+            <mxPoint x="680" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-14" value="按时间顺序串行执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-15" value="time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
