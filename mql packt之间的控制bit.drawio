@@ -10,23 +10,17 @@
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-2" value="kernel dispatch2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="500" width="120" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-3" target="4_w3iqSzNzo2NCXgmyyh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-3" value="barrier bit&lt;div&gt;(kernel dispatch之间的串行控制&amp;lt;&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;中间没有barrier包的情况下&lt;/font&gt;&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="410" width="120" height="56" as="geometry" />
+          <mxGeometry x="490" y="392" width="120" height="58" as="geometry" />
         </mxCell>
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-6" value="release fence bit&lt;div&gt;(刷cache)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4_w3iqSzNzo2NCXgmyyh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-3" target="4_w3iqSzNzo2NCXgmyyh-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4_w3iqSzNzo2NCXgmyyh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-6" target="4_w3iqSzNzo2NCXgmyyh-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4_w3iqSzNzo2NCXgmyyh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-10" target="4_w3iqSzNzo2NCXgmyyh-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="290" y="410" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-10" value="acquire fence bit&lt;div&gt;(刷cache)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="410" width="100" height="40" as="geometry" />
+          <mxGeometry y="410" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-12" value="barrier包&lt;div&gt;包括barrier and和barrier or&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="500" width="120" height="90" as="geometry" />
@@ -42,6 +36,27 @@
         </mxCell>
         <mxCell id="4_w3iqSzNzo2NCXgmyyh-15" value="time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-6" target="4_w3iqSzNzo2NCXgmyyh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_w3iqSzNzo2NCXgmyyh-10" target="4_w3iqSzNzo2NCXgmyyh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549.76" y="590" as="sourcePoint" />
+            <mxPoint x="549.76" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-22" value="如果这个包前面没有barrier包，那么这个bit就设置一个fence, 会等前面的kernel dispatch执行完成，自己才继续执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_w3iqSzNzo2NCXgmyyh-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="630" as="sourcePoint" />
+            <mxPoint x="549.76" y="545" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
