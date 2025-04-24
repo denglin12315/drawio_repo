@@ -40,19 +40,19 @@
             <mxPoint x="-29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--10" value="&lt;div&gt;struct mxcd_mem {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;list_bo_va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rR5EofyFPW8heq7qPvs--10" value="&lt;div&gt;struct mxcd_mem {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;list_bo_va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="140" y="890" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rR5EofyFPW8heq7qPvs--11" value="BO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="870" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rR5EofyFPW8heq7qPvs--12" target="rR5EofyFPW8heq7qPvs--15">
+        <mxCell id="rR5EofyFPW8heq7qPvs--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F20202;" edge="1" parent="1" source="rR5EofyFPW8heq7qPvs--12" target="rR5EofyFPW8heq7qPvs--15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--12" value="mxcd_bo_va {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pte_flags&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;type&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo_vm&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rR5EofyFPW8heq7qPvs--12" value="mxcd_bo_va {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pte_flags&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;type&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo_vm&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=#F20202;" vertex="1" parent="1">
           <mxGeometry x="320" y="860" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--15" value="mxcd_bo_va {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pte_flags&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;type&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo_vm&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rR5EofyFPW8heq7qPvs--15" value="mxcd_bo_va {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pte_flags&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;type&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo_vm&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=#F20202;" vertex="1" parent="1">
           <mxGeometry x="460" y="860" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rR5EofyFPW8heq7qPvs--18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.667;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rR5EofyFPW8heq7qPvs--10" target="rR5EofyFPW8heq7qPvs--12">
@@ -62,10 +62,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rR5EofyFPW8heq7qPvs--19" value="每个list_bo_va节点，代表该bo要映射到的一个va" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="330" y="830" width="220" height="30" as="geometry" />
+          <mxGeometry x="380" y="820" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--20" value="mxcd_bo_vm {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;prepare_list(to be map)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mapped_list(mapped)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1020" width="160" height="70" as="geometry" />
+        <mxCell id="rR5EofyFPW8heq7qPvs--20" value="mxcd_bo_vm {&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;metax_vm_bo_chain base {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;metax_vm_bo_chain next&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;metax_vm *vm&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;metax_bo *bo&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1020" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="rR5EofyFPW8heq7qPvs--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.667;exitY=0.778;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="rR5EofyFPW8heq7qPvs--20">
           <mxGeometry relative="1" as="geometry">
@@ -73,8 +73,57 @@
             <mxPoint x="453" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rR5EofyFPW8heq7qPvs--25" value="bo和要映射到的va对应的vm绑定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rR5EofyFPW8heq7qPvs--25" value="bo和要映射到的va所在的vm绑定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="990" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#F20202;" edge="1" target="rR5EofyFPW8heq7qPvs--27" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="905" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--27" value="mxcd_bo_va {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;va&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pte_flags&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;type&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bo_vm&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=#F20202;" vertex="1" parent="1">
+          <mxGeometry x="600" y="860" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--29" value="metax_bo&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;metax_vm_bo_chain&amp;nbsp; vm_bo&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1020" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.864;exitY=0.506;exitDx=0;exitDy=0;entryX=0.136;entryY=0.276;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328.0799999999999" y="1048.36" as="sourcePoint" />
+            <mxPoint x="487.9200000000001" y="1048.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=4;" edge="1" parent="1" target="rR5EofyFPW8heq7qPvs--29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1063" as="sourcePoint" />
+            <mxPoint x="260" y="1083" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1063" />
+              <mxPoint x="710" y="1163" />
+              <mxPoint x="260" y="1163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--34" value="形成一个循环链表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rR5EofyFPW8heq7qPvs--33">
+          <mxGeometry x="0.203" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1070" as="sourcePoint" />
+            <mxPoint x="470" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.625;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="173" y="939" as="sourcePoint" />
+            <mxPoint x="245" y="1019" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="173" y="994" />
+              <mxPoint x="245" y="994" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
