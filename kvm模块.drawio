@@ -73,6 +73,9 @@
             <mxPoint x="453" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rR5EofyFPW8heq7qPvs--25" value="bo和要映射到的va对应的vm绑定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="990" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
