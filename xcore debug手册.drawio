@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="第 1 页" id="N8uxrEziEUM4jcG-TYEN">
-    <mxGraphModel dx="1176" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="980" dy="546" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,7 +238,7 @@
         <mxCell id="upNVnMN4ul6vtnBXJy2I-87" value="主要通过dmesg以及和UMD联合调试定位问题，主要就是涉及xcore相关的ioctl以及sysfs node(比如gpu props)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="755" width="676" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="upNVnMN4ul6vtnBXJy2I-88" value="主要就是kmd的queue管理和映射，着重关注queue map对应的doorbell/xpid/queue status等，辅助工具check_ce.sh" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="upNVnMN4ul6vtnBXJy2I-88" value="主要就是kmd的queue管理和映射，着重关注queue map对应的doorbell/xpid/queue status等，辅助工具&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;check_ce.sh&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="785" width="716" height="30" as="geometry" />
         </mxCell>
         <mxCell id="upNVnMN4ul6vtnBXJy2I-89" value="INT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
@@ -247,13 +247,13 @@
         <mxCell id="upNVnMN4ul6vtnBXJy2I-90" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="44" y="880" width="56" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="upNVnMN4ul6vtnBXJy2I-91" value="主要就是xcore hang的问题分析，辅助工具kmd_debug.sh" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="upNVnMN4ul6vtnBXJy2I-91" value="主要就是xcore hang的问题分析，辅助工具&lt;font style=&quot;color: rgb(242, 2, 2);&quot;&gt;kmd_debug.sh&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="815" width="676" height="30" as="geometry" />
         </mxCell>
         <mxCell id="upNVnMN4ul6vtnBXJy2I-92" value="主要就是xrbm广播写/单播读的特性，涉及xrbm LP mutex的用法，互斥，以及xrbm锁获取不到的问题debug" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="845" width="676" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="upNVnMN4ul6vtnBXJy2I-93" value="主要就是xcore硬件异常的上报通道，问题最多，主要就是要理解xcore部分与KMD INT的如何对接，然后INT和event的转换" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="upNVnMN4ul6vtnBXJy2I-93" value="主要就是xcore硬件异常的上报通道，问题最多，着重理解xcore异常含义，与KMD INT的如何对接，然后INT和event的转换" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="875" width="676" height="30" as="geometry" />
         </mxCell>
       </root>
