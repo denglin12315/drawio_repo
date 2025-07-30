@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram name="第 1 页" id="RPtUrXmMMDLgGmPHVudw">
-    <mxGraphModel>
+    <mxGraphModel dx="686" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OhCqSORloQAqBiOBMFWs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OhCqSORloQAqBiOBMFWs-1" target="OhCqSORloQAqBiOBMFWs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-1" value="CE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="OhCqSORloQAqBiOBMFWs-2" target="OhCqSORloQAqBiOBMFWs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OhCqSORloQAqBiOBMFWs-2" target="OhCqSORloQAqBiOBMFWs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-2" value="RM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="OhCqSORloQAqBiOBMFWs-4" target="OhCqSORloQAqBiOBMFWs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-4" value="DPC" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-5" value="AP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="475" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-7" value="AP坏(XCORE RAS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fillColor=none;fontColor=#F20202;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-8" value="wave回不来" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F20202;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-13" value="wave下不去" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-14" value="AP被harvest" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fillColor=none;fontColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="325" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-15" value="对于ap被harvest的场景，看看RM_CTRL寄存器，harvest信息是不是有错误；" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="210" y="555" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-16" value="对于ap没有被harvest但是AP实际是坏的的情况，一般对应XCORE ras error，ras error产生是smp获取ras error信息向kmd报中断，如果kmd没有收到中断，就应该去check smp log获或者直接读mca寄存器，看看硬件是不是又xcore ras产生；" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F20202;" vertex="1" parent="1">
+          <mxGeometry x="210" y="585" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-17" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=45;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="465" y="465" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OhCqSORloQAqBiOBMFWs-18" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=45;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="465" y="495" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
