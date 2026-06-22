@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="YtLlBfABRguZQTKAz2C_">
-    <mxGraphModel dx="1461" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1705" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,23 +393,55 @@
             <mxPoint x="940" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oD4Ofut39vJIhpQAd5z6-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="metax_ib" vertex="1">
-          <mxGeometry height="60" width="120" x="570" y="1750" as="geometry" />
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB0)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="570" y="1750" as="geometry" />
         </mxCell>
-        <mxCell id="oD4Ofut39vJIhpQAd5z6-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="metax_ib" vertex="1">
-          <mxGeometry height="60" width="120" x="810" y="1750" as="geometry" />
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="810" y="1750" as="geometry" />
         </mxCell>
-        <mxCell id="oD4Ofut39vJIhpQAd5z6-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="metax_ib" vertex="1">
-          <mxGeometry height="60" width="120" x="930" y="1750" as="geometry" />
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB3)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="930" y="1750" as="geometry" />
         </mxCell>
         <mxCell id="oD4Ofut39vJIhpQAd5z6-112" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" value="" vertex="1">
-          <mxGeometry height="482.5" width="40" x="790.25" y="1588.75" as="geometry" />
+          <mxGeometry height="482.5" width="40" x="790.25" y="1660" as="geometry" />
         </mxCell>
         <mxCell id="oD4Ofut39vJIhpQAd5z6-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="一个ibs_request可以包含多个ib，每个ib在KMD里面对应一个metax_ib" vertex="1">
-          <mxGeometry height="30" width="209" x="715.5" y="1850" as="geometry" />
+          <mxGeometry height="30" width="209" x="715.5" y="1921.25" as="geometry" />
         </mxCell>
-        <mxCell id="oD4Ofut39vJIhpQAd5z6-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="metax_ib" vertex="1">
-          <mxGeometry height="60" width="120" x="690" y="1750" as="geometry" />
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB1)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="690" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="struct metax_job {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ibs&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num_ib&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="450" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-116" edge="1" parent="1" source="oD4Ofut39vJIhpQAd5z6-84" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.278;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="oD4Ofut39vJIhpQAd5z6-115" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1690" />
+              <mxPoint x="350" y="1800" />
+            </Array>
+            <mxPoint x="620" y="1490" as="sourcePoint" />
+            <mxPoint x="670" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-117" edge="1" parent="1" source="oD4Ofut39vJIhpQAd5z6-115" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.333;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;" target="oD4Ofut39vJIhpQAd5z6-107" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1740" />
+              <mxPoint x="590" y="1730" />
+            </Array>
+            <mxPoint x="620" y="1480" as="sourcePoint" />
+            <mxPoint x="670" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-119" edge="1" parent="1" source="oD4Ofut39vJIhpQAd5z6-115" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" target="oD4Ofut39vJIhpQAd5z6-112" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1980" />
+            </Array>
+            <mxPoint x="150" y="1870" as="sourcePoint" />
+            <mxPoint x="200" y="1820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
