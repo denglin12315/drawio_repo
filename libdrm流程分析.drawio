@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="YtLlBfABRguZQTKAz2C_">
-    <mxGraphModel dx="1705" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="750" width="1340" x="70" y="1290" as="geometry" />
+        </mxCell>
         <mxCell id="oD4Ofut39vJIhpQAd5z6-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="360" width="740" x="501" y="1340" as="geometry" />
         </mxCell>
@@ -399,7 +402,7 @@
         <mxCell id="oD4Ofut39vJIhpQAd5z6-110" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB2)&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="810" y="1750" as="geometry" />
         </mxCell>
-        <mxCell id="oD4Ofut39vJIhpQAd5z6-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="struct metax_ib&lt;div&gt;(IB3)&lt;/div&gt;" vertex="1">
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="struct metax_ib {&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;gpu_addr&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;length_dw&lt;/div&gt;&lt;div&gt;}&lt;div&gt;(IB3)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="930" y="1750" as="geometry" />
         </mxCell>
         <mxCell id="oD4Ofut39vJIhpQAd5z6-112" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" value="" vertex="1">
@@ -442,6 +445,43 @@
             <mxPoint x="150" y="1870" as="sourcePoint" />
             <mxPoint x="200" y="1820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-121" edge="1" parent="1" source="oD4Ofut39vJIhpQAd5z6-111" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.667;exitY=0.385;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1700" />
+              <mxPoint x="1350" y="1640" />
+              <mxPoint x="1310" y="1470" />
+            </Array>
+            <mxPoint x="1010" y="1800" as="sourcePoint" />
+            <mxPoint x="1020" y="1415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-123" edge="1" parent="1" source="oD4Ofut39vJIhpQAd5z6-111" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.735;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" target="oD4Ofut39vJIhpQAd5z6-97" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="1830" />
+              <mxPoint x="1380" y="1660" />
+            </Array>
+            <mxPoint x="770" y="1530" as="sourcePoint" />
+            <mxPoint x="820" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="最终，metax_job_run回调会调用:&lt;div&gt;metax_ib_schedule&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; metax_ring_emit_ib&amp;nbsp; &amp;nbsp;(调用一次发一个ib)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; metax_ring_emit_fence(所有ib发完，针对job发一个eop产生中断)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="390" x="111" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-125" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="oD4Ofut39vJIhpQAd5z6-115" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1880" />
+              <mxPoint x="370" y="1860" />
+            </Array>
+            <mxPoint x="290" y="1910" as="sourcePoint" />
+            <mxPoint x="500" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD4Ofut39vJIhpQAd5z6-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="内核态核心过程" vertex="1">
+          <mxGeometry height="30" width="105" x="85" y="1350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
