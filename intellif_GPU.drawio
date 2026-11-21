@@ -113,7 +113,7 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-48" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.011;entryY=0.026;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeWidth=4;entryPerimeter=0;" target="aXtIE2nKTBRnICG6F56U-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="cmdBuffer" vertex="1">
+        <mxCell id="O0nDFhtyqbknflxukw0j-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" value="cmdBuffer" vertex="1">
           <mxGeometry height="30" width="110" x="1106" y="195" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-33" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="O0nDFhtyqbknflxukw0j-36">
@@ -142,7 +142,7 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="cmdBufferPool(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;ringbuf&lt;/span&gt;)" vertex="1">
           <mxGeometry height="33" width="120" x="681" y="274" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;article&gt;&lt;div style=&quot;white-space:pre-wrap;&quot;&gt;cmd.die[ ]&lt;/div&gt;&lt;div style=&quot;white-space:pre-wrap;&quot;&gt;cmdBase/cmdBuffer/size&lt;/div&gt;&lt;/article&gt;" vertex="1">
+        <mxCell id="O0nDFhtyqbknflxukw0j-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;article&gt;&lt;div style=&quot;white-space:pre-wrap;&quot;&gt;cmd.die[ ]&lt;/div&gt;&lt;div style=&quot;white-space:pre-wrap;&quot;&gt;cmdBase/cmdBuffer/size&lt;/div&gt;&lt;/article&gt;" vertex="1">
           <mxGeometry height="40" width="130" x="1304" y="205" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-49" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.033;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeWidth=3;entryPerimeter=0;" target="O0nDFhtyqbknflxukw0j-17">
