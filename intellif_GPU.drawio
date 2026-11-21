@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aXtIE2nKTBRnICG6F56U-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;nbsp;&lt;b&gt; HAL&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="580" width="1540" x="80" y="80" as="geometry" />
+          <mxGeometry height="580" width="1490" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="aXtIE2nKTBRnICG6F56U-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;halContext&lt;/b&gt;" vertex="1">
           <mxGeometry height="240" width="170" x="110" y="170" as="geometry" />
@@ -158,28 +158,28 @@
           <mxGeometry relative="1" x="0.5077" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;KMD&lt;/span&gt;" vertex="1">
-          <mxGeometry height="160" width="1540" x="80" y="730" as="geometry" />
+          <mxGeometry height="160" width="1490" x="80" y="730" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;GPU HW&lt;/span&gt;" vertex="1">
-          <mxGeometry height="160" width="1540" x="80" y="950" as="geometry" />
+          <mxGeometry height="160" width="1490" x="80" y="950" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内存管理" vertex="1">
-          <mxGeometry height="60" width="120" x="190" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="215" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中断/hwEvent" vertex="1">
-          <mxGeometry height="60" width="120" x="365" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="390" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="同步策略" vertex="1">
-          <mxGeometry height="60" width="120" x="540" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="565" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="命令提交" vertex="1">
-          <mxGeometry height="60" width="120" x="715" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pcie/bar" vertex="1">
-          <mxGeometry height="60" width="120" x="890" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="915" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gpu info/topo" vertex="1">
-          <mxGeometry height="60" width="120" x="1070" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="1095" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-58" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-51" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="O0nDFhtyqbknflxukw0j-50" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -188,7 +188,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化/ctx管理" vertex="1">
-          <mxGeometry height="60" width="120" x="1250" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="1275" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
