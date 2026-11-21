@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
+    <mxGraphModel dx="649" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aXtIE2nKTBRnICG6F56U-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="460" width="530" x="130" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aXtIE2nKTBRnICG6F56U-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="context" vertex="1">
+          <mxGeometry height="50" width="120" x="170" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aXtIE2nKTBRnICG6F56U-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="halQueue(stream)" vertex="1">
+          <mxGeometry height="50" width="120" x="170" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aXtIE2nKTBRnICG6F56U-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="cmdBuf" vertex="1">
+          <mxGeometry height="50" width="120" x="170" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
