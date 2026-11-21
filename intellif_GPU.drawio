@@ -169,7 +169,7 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中断/hwEvent" vertex="1">
           <mxGeometry height="60" width="120" x="365" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="同步" vertex="1">
+        <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="同步策略" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="命令提交" vertex="1">
@@ -180,6 +180,15 @@
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gpu info/topo" vertex="1">
           <mxGeometry height="60" width="120" x="1070" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-58" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-51" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="O0nDFhtyqbknflxukw0j-50" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="770" y="750" as="sourcePoint" />
+            <mxPoint x="870" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化/ctx管理" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
