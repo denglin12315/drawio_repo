@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
-    <mxGraphModel dx="1187" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,28 +150,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&amp;nbsp; KMD&lt;/span&gt;" vertex="1">
-          <mxGeometry height="160" width="1490" x="80" y="730" as="geometry" />
+          <mxGeometry height="132" width="1490" x="80" y="758" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&amp;nbsp; GPU HW&lt;/span&gt;" vertex="1">
-          <mxGeometry height="160" width="1490" x="80" y="950" as="geometry" />
+          <mxGeometry height="85" width="1490" x="80" y="950" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内存管理" vertex="1">
-          <mxGeometry height="60" width="120" x="215" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="215" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中断/hwEvent" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="390" y="796" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="同步策略" vertex="1">
-          <mxGeometry height="60" width="120" x="1265" y="780" as="geometry" />
+        <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="同步策略" vertex="1">
+          <mxGeometry height="60" width="120" x="1262" y="796" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="命令提交" vertex="1">
-          <mxGeometry height="60" width="120" x="1090" y="780" as="geometry" />
+        <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="命令提交" vertex="1">
+          <mxGeometry height="60" width="120" x="914" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pcie/bar" vertex="1">
-          <mxGeometry height="60" width="120" x="915" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="1088" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gpu info/topo" vertex="1">
-          <mxGeometry height="60" width="120" x="740" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-58" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-51" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="O0nDFhtyqbknflxukw0j-50" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -180,7 +180,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化/ctx管理" vertex="1">
-          <mxGeometry height="60" width="120" x="565" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="565" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="" vertex="1">
           <mxGeometry height="91" width="353" x="877" y="324" as="geometry" />
@@ -380,6 +380,24 @@
             <Array as="points">
               <mxPoint x="187.5" y="247" />
               <mxPoint x="187.5" y="375.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-128" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#1ba1e2;strokeColor=#006EAF;" target="O0nDFhtyqbknflxukw0j-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="969.53" y="415.4" as="sourcePoint" />
+            <mxPoint x="973" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;strokeWidth=2;fontSize=15;fontColor=light-dark(#000000,#FFFFFF);" value="KMD原封不动拷贝HAL层组织好的各die对应的subCommit和对应的&lt;span style=&quot;font-size: 17px; text-indent: 252px; white-space: pre-wrap; background-color: transparent;&quot;&gt;subcommit-&amp;gt;cmdbuf)。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px; text-indent: 252px; white-space: pre-wrap; background-color: transparent;&quot;&gt;并在此基础上添加了一个cmd的hw fence和DONE_JOB event&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="465" x="731" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-143" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-54">
+          <mxGeometry relative="1" x="0.0004" as="geometry">
+            <Array as="points">
+              <mxPoint x="601" y="323" />
+              <mxPoint x="601" y="462" />
+              <mxPoint x="1322" y="462" />
             </Array>
           </mxGeometry>
         </mxCell>
