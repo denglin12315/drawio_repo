@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
-    <mxGraphModel dx="2054" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2475" dy="1370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aXtIE2nKTBRnICG6F56U-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;&amp;nbsp; HAL&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="580" width="1490" x="80" y="80" as="geometry" />
+        <mxCell id="aXtIE2nKTBRnICG6F56U-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;&amp;nbsp; HAL(P0)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="580" width="1431" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="aXtIE2nKTBRnICG6F56U-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;halContext&lt;/b&gt;" vertex="1">
           <mxGeometry height="149" width="170" x="175" y="175" as="geometry" />
@@ -150,25 +150,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&amp;nbsp; KMD&lt;/span&gt;" vertex="1">
-          <mxGeometry height="132" width="1490" x="80" y="758" as="geometry" />
+          <mxGeometry height="132" width="1617" x="80" y="758" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&amp;nbsp; GPU HW&lt;/span&gt;" vertex="1">
-          <mxGeometry height="85" width="1490" x="80" y="950" as="geometry" />
+          <mxGeometry height="85" width="1617" x="80" y="950" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="内存管理" vertex="1">
           <mxGeometry height="60" width="120" x="215" y="796" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中断/hwEvent" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="796" as="geometry" />
+        <mxCell id="O0nDFhtyqbknflxukw0j-157" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="中断/hwEvent" vertex="1">
+          <mxGeometry height="60" width="120" x="1101" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="同步策略&lt;div&gt;dmdbuf/syncobj&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1262" y="796" as="geometry" />
+          <mxGeometry height="60" width="120" x="1382" y="794" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="命令提交" vertex="1">
           <mxGeometry height="60" width="120" x="914" y="796" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pcie/bar" vertex="1">
-          <mxGeometry height="60" width="120" x="1088" y="796" as="geometry" />
+          <mxGeometry height="60" width="120" x="395" y="794" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gpu info/topo" vertex="1">
           <mxGeometry height="60" width="120" x="740" y="796" as="geometry" />
@@ -383,22 +386,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-128" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#1ba1e2;strokeColor=#006EAF;" target="O0nDFhtyqbknflxukw0j-55" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="969.53" y="415.4" as="sourcePoint" />
-            <mxPoint x="973" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;strokeWidth=2;fontSize=15;fontColor=light-dark(#000000,#FFFFFF);" value="KMD原封不动拷贝HAL层组织好的各die对应的subCommit和对应的&lt;span style=&quot;font-size: 17px; text-indent: 252px; white-space: pre-wrap; background-color: transparent;&quot;&gt;subcommit-&amp;gt;cmdbuf)。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px; text-indent: 252px; white-space: pre-wrap; background-color: transparent;&quot;&gt;并在此基础上添加了一个cmd的hw fence和DONE_JOB event&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="62" width="465" x="731" y="677" as="geometry" />
+        <mxCell id="O0nDFhtyqbknflxukw0j-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;strokeWidth=2;fontSize=15;fontColor=light-dark(#000000,#FFFFFF);" value="1.KMD copy_from_user subCommit/&lt;span style=&quot;font-size: 17px; text-indent: 252px; white-space: pre-wrap; background-color: transparent;&quot;&gt;subcommit-&amp;gt;cmdbuf)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px; text-indent: 252px; white-space: pre-wrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.为cmdLoc添加hw fence/DONE_JOB event&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="411" x="585" y="676" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-143" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-54">
           <mxGeometry relative="1" x="0.0004" as="geometry">
             <Array as="points">
               <mxPoint x="601" y="323" />
               <mxPoint x="601" y="462" />
-              <mxPoint x="1322" y="462" />
+              <mxPoint x="1442" y="462" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-148" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="NativeFecne fd" vertex="1">
+          <mxGeometry height="60" width="120" x="1233" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b style=&quot;font-size: 40px;&quot;&gt;HAL(P1)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="580" width="170" x="1527" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-149" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="NativeFecne fd" vertex="1">
+          <mxGeometry height="60" width="120" x="1552" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-152" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-79" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.046;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" target="O0nDFhtyqbknflxukw0j-129" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="829" y="660" as="sourcePoint" />
+            <mxPoint x="879" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-153" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-129" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.946;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" target="O0nDFhtyqbknflxukw0j-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="974" y="739" as="sourcePoint" />
+            <mxPoint x="685" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-155" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="viv_irq" vertex="1">
+          <mxGeometry height="60" width="120" x="1101" y="962.5" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="唤醒关注该hwEvent进程" vertex="1">
+          <mxGeometry height="60" width="120" x="1015" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-160" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="QD" vertex="1">
+          <mxGeometry height="60" width="120" x="916" y="962.5" as="geometry" />
+        </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-159" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-55" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.512;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" target="O0nDFhtyqbknflxukw0j-158" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="974.1" y="856.4300000000001" as="sourcePoint" />
+            <mxPoint x="974.1" y="914.4300000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
