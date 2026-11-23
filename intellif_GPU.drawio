@@ -161,6 +161,15 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-157" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-156">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="O0nDFhtyqbknflxukw0j-161" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-54">
+          <mxGeometry relative="1" x="0.0035" as="geometry">
+            <Array as="points">
+              <mxPoint x="1261.1" y="826" />
+              <mxPoint x="1261.1" y="874" />
+              <mxPoint x="1442" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="中断/hwEvent" vertex="1">
           <mxGeometry height="60" width="120" x="1101" y="796" as="geometry" />
         </mxCell>
