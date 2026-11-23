@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
-    <mxGraphModel dx="1426" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,16 +179,16 @@
           <mxGeometry height="60" width="120" x="390" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="同步策略" vertex="1">
-          <mxGeometry height="60" width="120" x="565" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="1265" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="命令提交" vertex="1">
-          <mxGeometry height="60" width="120" x="740" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="1090" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pcie/bar" vertex="1">
           <mxGeometry height="60" width="120" x="915" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gpu info/topo" vertex="1">
-          <mxGeometry height="60" width="120" x="1095" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-58" edge="1" parent="1" source="O0nDFhtyqbknflxukw0j-51" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="O0nDFhtyqbknflxukw0j-50" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -197,7 +197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化/ctx管理" vertex="1">
-          <mxGeometry height="60" width="120" x="1275" y="780" as="geometry" />
+          <mxGeometry height="60" width="120" x="565" y="780" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="" vertex="1">
           <mxGeometry height="91" width="353" x="877" y="324" as="geometry" />
