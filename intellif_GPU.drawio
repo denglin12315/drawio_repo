@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
-    <mxGraphModel dx="2037" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2562" dy="948" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,7 +509,7 @@
             <mxPoint x="894.1" y="834.4300000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0hIKNKqZ0g_36NYDlXJM-3" parent="O0nDFhtyqbknflxukw0j-364" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="cudaStreamSynchronize(streamA)&lt;div&gt;waitHalQueueIdle&lt;/div&gt;&lt;div&gt;cmdReadyToSubmit&lt;/div&gt;" vertex="1">
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-3" parent="O0nDFhtyqbknflxukw0j-364" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="cudaStreamSynchronize(stream)&lt;div&gt;waitHalQueueIdle&lt;/div&gt;&lt;div&gt;cmdReadyToSubmit&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="127" x="525" y="395" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-365" connectable="0" parent="1" style="group" value="" vertex="1">
