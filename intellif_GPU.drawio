@@ -1081,7 +1081,7 @@
         <mxCell id="0hIKNKqZ0g_36NYDlXJM-21" edge="1" parent="1" source="0hIKNKqZ0g_36NYDlXJM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="6cTEcegZalCCHvLwRc-n-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hIKNKqZ0g_36NYDlXJM-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=top;" value="WAIT_FENCE_CMD&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fence val=2&lt;/div&gt;" vertex="1">
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=top;" value="WAIT_FENCE_CMD&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(229, 20, 0), rgb(255, 0, 0));&quot;&gt;fence val=2表示等到&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="90" x="-561" y="1447" as="geometry" />
         </mxCell>
         <mxCell id="0hIKNKqZ0g_36NYDlXJM-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stream 1" vertex="1">
