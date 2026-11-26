@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="IGd7IvG54_uKbuqcBHGL">
-    <mxGraphModel dx="1485" dy="316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,7 @@
           <mxGeometry height="40" width="53" x="234" y="325" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-95" parent="O0nDFhtyqbknflxukw0j-364" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="" vertex="1">
-          <mxGeometry height="40" width="147" x="375" y="395" as="geometry" />
+          <mxGeometry height="40" width="287.5" x="375" y="395" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-96" parent="O0nDFhtyqbknflxukw0j-364" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CPU" vertex="1">
           <mxGeometry height="30" width="60" x="324" y="400" as="geometry" />
@@ -386,7 +386,7 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-86" parent="O0nDFhtyqbknflxukw0j-364" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stream1" vertex="1">
           <mxGeometry height="30" width="60" x="394" y="489" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-113" edge="1" parent="O0nDFhtyqbknflxukw0j-364" source="O0nDFhtyqbknflxukw0j-10" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;" target="O0nDFhtyqbknflxukw0j-95" value="">
+        <mxCell id="O0nDFhtyqbknflxukw0j-113" edge="1" parent="O0nDFhtyqbknflxukw0j-364" source="O0nDFhtyqbknflxukw0j-10" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="O0nDFhtyqbknflxukw0j-95" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="446" y="243" as="sourcePoint" />
             <mxPoint x="446.17999999999984" y="371.20000000000005" as="targetPoint" />
@@ -398,8 +398,11 @@
         <mxCell id="O0nDFhtyqbknflxukw0j-116" parent="O0nDFhtyqbknflxukw0j-364" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;2.stream和CPU保顺序:通过&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;lastDeferredFence&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="306" x="46" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="O0nDFhtyqbknflxukw0j-117" parent="O0nDFhtyqbknflxukw0j-364" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;3.stream间的保序(dep):通过&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;lastAsyncFence+mirror fence(dep)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="367.5" x="46" y="534" as="geometry" />
+        <mxCell id="O0nDFhtyqbknflxukw0j-117" parent="O0nDFhtyqbknflxukw0j-364" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;3.muti stream/CPU间的保序(event):通过&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;lastAsyncFence+mirror fence(dep)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="389" x="46" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-4" edge="1" parent="O0nDFhtyqbknflxukw0j-364" source="O0nDFhtyqbknflxukw0j-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" target="0hIKNKqZ0g_36NYDlXJM-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-119" parent="O0nDFhtyqbknflxukw0j-364" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="" vertex="1">
           <mxGeometry height="96" width="151" x="585.5" y="232" as="geometry" />
@@ -505,6 +508,9 @@
             <mxPoint x="894.1" y="776.4300000000001" as="sourcePoint" />
             <mxPoint x="894.1" y="834.4300000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-3" parent="O0nDFhtyqbknflxukw0j-364" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="cudaStreamSynchronize(streamA)&lt;div&gt;waitHalQueueIdle&lt;/div&gt;&lt;div&gt;cmdReadyToSubmit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="127" x="525" y="395" as="geometry" />
         </mxCell>
         <mxCell id="O0nDFhtyqbknflxukw0j-365" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="760" width="1070" x="216" y="1183" as="geometry" />
