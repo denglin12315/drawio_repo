@@ -1006,6 +1006,9 @@
         <mxCell id="6cTEcegZalCCHvLwRc-n-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=10;" value="user fence(&lt;span style=&quot;color: light-dark(rgb(229, 20, 0), rgb(255, 0, 0));&quot;&gt;exp&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(229, 20, 0), rgb(255, 0, 0));&quot;&gt;val=1&lt;/span&gt;)" vertex="1">
           <mxGeometry height="80" width="100" x="-205.5" y="1430" as="geometry" />
         </mxCell>
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-25" edge="1" parent="1" source="6cTEcegZalCCHvLwRc-n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" target="0hIKNKqZ0g_36NYDlXJM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6cTEcegZalCCHvLwRc-n-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="mirror fence" vertex="1">
           <mxGeometry height="70" width="100" x="-205.5" y="1510" as="geometry" />
         </mxCell>
@@ -1092,6 +1095,9 @@
         </mxCell>
         <mxCell id="0hIKNKqZ0g_36NYDlXJM-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="other cmd" vertex="1">
           <mxGeometry height="60" width="90" x="-561" y="1543" as="geometry" />
+        </mxCell>
+        <mxCell id="0hIKNKqZ0g_36NYDlXJM-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#996185;fillColor=#e6d0de;align=center;verticalAlign=middle;rounded=0;gradientColor=#d5739d;" value="每record一次，mirro fence会重新创建一个，旧的mirror fence会加入inflight链表" vertex="1">
+          <mxGeometry height="60" width="113.75" x="-79" y="1620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
